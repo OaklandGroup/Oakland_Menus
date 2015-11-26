@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    -<![CDATA[
+    tools:context="com.oaklandmenus.sophomoreproject.oakland_menus.calculation">
+
+    ]]>
+
+    -<android.support.design.widget.AppBarLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textView4" android:layout_marginTop="0dp" android:layout_alignParentTop="true" android:layout_marginLeft="0dp" android:layout_alignParentLeft="true" android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar android:layout_height="?attr/actionBarSize" android:layout_width="match_parent" android:id="@+id/toolbar" app:popupTheme="@style/AppTheme.PopupOverlay" android:background="?attr/colorPrimary"/>
+
+</android.support.design.widget.AppBarLayout>
+
+    <EditText android:layout_height="66dp" android:layout_width="180dp" android:id="@+id/txtbox1" android:layout_marginTop="112dp" android:layout_alignParentTop="true" android:layout_marginLeft="204dp" android:layout_alignParentLeft="true" android:layout_gravity="center_horizontal" android:paddingEnd="0dp" android:paddingStart="0dp" android:text="THIS IS YOUR TEXTBOX"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/txtbox2" android:layout_gravity="center_horizontal" android:text="Medium Text" android:layout_alignStart="@+id/txtbox1" android:layout_alignLeft="@+id/txtbox1" android:layout_below="@+id/txtbox1" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:text="Total Calorie" android:layout_toStartOf="@+id/txtbox2" android:layout_toLeftOf="@+id/txtbox2" android:layout_alignBottom="@+id/txtbox1" android:layout_alignBaseline="@+id/txtbox1" android:layout_marginEnd="22dp" android:layout_marginRight="22dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView5" android:text="Total Price" android:layout_alignStart="@+id/textView3" android:layout_alignLeft="@+id/textView3" android:layout_alignBottom="@+id/txtbox2" android:singleLine="true"/>
+
+</RelativeLayout>
+
